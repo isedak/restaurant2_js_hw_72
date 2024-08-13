@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "homework-72-izida-kubekova-mobile",
+    "slug": "homework-72-izida-kubekova-mobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "homework-72-izida-kubekova-mobile"
+}

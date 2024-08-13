@@ -1,0 +1,60 @@
+.NavBar-background {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBar-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px;
+    min-width: 300px;
+    align-items: center;
+    gap: 15px;
+}
+
+.NavBar-links-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.NavBar-link {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.NavBar-link:hover {
+    color: white;
+}
+
+.NavBar-link.active {
+    color: white;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 320px) {
+    .NavBar-container {
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .NavBar-container {
+        gap: 20px;
+        width: 500px;
+    }
+}

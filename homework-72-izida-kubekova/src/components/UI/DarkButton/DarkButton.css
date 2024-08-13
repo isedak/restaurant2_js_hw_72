@@ -1,0 +1,17 @@
+.DarkButton {
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 5px 9px 5px 9px;
+    max-width: 135px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+
+.DarkButton:disabled,
+.DarkButton:hover:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
